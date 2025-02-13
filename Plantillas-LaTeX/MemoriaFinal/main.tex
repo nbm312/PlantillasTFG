@@ -1,0 +1,95 @@
+% Plantilla-LaTeX/Memoria-TFG.tex
+\documentclass[12pt, a4paper]{article}
+\usepackage[spanish]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{setspace}
+\onehalfspacing
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+
+% Logos de la UMU y Facultad (requiere archivos logo-umu.png y logo-fac.png)
+\begin{minipage}{0.4\textwidth}
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/logo-umu.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/logo-fac.png}
+\end{minipage}
+
+\vfill % Espacio para centrar el título verticalmente
+
+{\Huge \textbf{TÍTULO DEL DOCUMENTO DEL TFG}\\}
+\vspace{1.5cm}
+
+{\large \textbf{Autor:} Nombre Apellidos\\}
+\vspace{0.5cm}
+{\large \textbf{Tutor:} Nombre del Tutor\\}
+\vspace{2cm}
+
+{\large \textbf{Convocatoria:} XXXX 20XX\\}
+\vspace{1cm}
+
+{\large \textbf{Grado en Ingeniería Informática}\\}
+\vspace{0.5cm}
+{\large \textbf{Curso Académico 20XX/20XX}\\}
+
+\vfill % Espacio para centrar todo mejor
+
+\end{titlepage}
+
+\newpage
+% Autorización de empresa (si aplica)
+\section*{Autorización}
+[Texto de autorización según Anexo V.  \href{https://www.um.es/web/informatica/conoce-la-facultad/normativa}{Normativas. Relativos a Trabajos Fin de Grado y Trabajos Fin de Máster}]
+
+\newpage
+% Resumen y Extended Abstract
+\section*{Resumen}
+  [Resumen en español/inglés]
+
+\section*{Extended Abstract}
+[Mínimo 2000 palabras en el idioma opuesto]
+
+\newpage
+% Índice automático
+\tableofcontents
+
+\newpage
+% Cuerpo del documento
+\section{Introducción}
+[Contexto, motivación y objetivos]
+\section{Estado del Arte}
+[Revisión bibliográfica]
+
+\section{Objetivos y Metodología}
+[Descripción detallada]
+
+\section{Descripción del Diseño, trabajo realizado, pruebas, resultados, etc}
+[Implementación, pruebas y análisis]
+
+\section{Conclusiones}
+[Síntesis y trabajo futuro]
+
+% Para utilizar la bibliografía, \cite donde corresponda en el texto
+\cite{ejemplo1}
+\cite{ejemplo2}
+\cite{ejemplo3}
+
+\newpage
+% Bibliografía (IEEE o APA)
+\bibliographystyle{IEEEtran}
+\bibliography{IEEE.bib}
+
+% Anexos (opcional)
+\appendix
+\section{Anexo I}
+[Código, datos, etc.]
+
+\end{document}
