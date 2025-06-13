@@ -24,3 +24,7 @@ Este repositorio ofrece plantillas diseñadas para ayudar en la planificación, 
 - **Descarga** la plantilla que necesites desde el repositorio.
 - **Personalízala** según tu proyecto.
 - Úsala como **guía** para estructurar tu trabajo y asegurarte de que sigues un flujo organizado.
+
+
+## 📊 Contenido adicional
+Se incluye un apartado con los datos recopilados de las 3 encuestas realizas durante el desarrollo del TFG.
